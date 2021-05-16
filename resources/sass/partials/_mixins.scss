@@ -1,0 +1,29 @@
+@mixin center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@mixin center {
+    margin: 0 auto;
+}
+
+@mixin li-style-none {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@mixin my-1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+// @mixin flex ($tipo, $posizioneMain, $posizioneCross) {
+//     display: flex;
+//     flex-direction: $tipo;
+//     justify-content: $posizioneMain;
+//     align-items:  $posizioneCross;
+// }
+
+// @include flex (column, center, flex-end);
